@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>上海宏途数创科技有限公司 | 浅色极简商务风</title>
+  <style>
+    :root { color-scheme: light; --bg:#fbfaf6; --ink:#182033; --muted:#697386; --line:#e3e6ec; --blue:#1f56d8; --soft:#eef3ff; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:"PingFang SC","Microsoft YaHei",Arial,sans-serif; background:var(--bg); color:var(--ink); }
+    a { color:inherit; text-decoration:none; }
+    .wrap { width:min(1120px,calc(100% - 40px)); margin:auto; }
+    header { border-bottom:1px solid var(--line); background:rgba(251,250,246,.86); backdrop-filter:blur(16px); position:sticky; top:0; z-index:5; }
+    nav { height:74px; display:flex; justify-content:space-between; align-items:center; }
+    .brand { font-weight:800; letter-spacing:.03em; }
+    .links { display:flex; gap:26px; color:var(--muted); font-size:14px; }
+    .hero { padding:92px 0 74px; display:grid; grid-template-columns:1.1fr .9fr; gap:64px; align-items:center; }
+    .kicker { color:var(--blue); font-size:13px; letter-spacing:.16em; text-transform:uppercase; }
+    h1 { margin:18px 0; font-size:clamp(42px,7vw,86px); line-height:1.02; letter-spacing:-.07em; }
+    .lead { color:#536073; font-size:clamp(16px,1.7vw,20px); line-height:1.85; }
+    .hero-panel { border-left:1px solid var(--line); padding-left:38px; }
+    .metric { padding:24px 0; border-bottom:1px solid var(--line); }
+    .metric strong { display:block; font-size:42px; letter-spacing:-.05em; }
+    .metric span { color:var(--muted); }
+    .actions { display:flex; gap:12px; flex-wrap:wrap; margin-top:34px; }
+    .btn { display:inline-flex; align-items:center; justify-content:center; padding:13px 19px; border:1px solid var(--line); border-radius:2px; }
+    .btn.primary { background:var(--ink); color:#f7f4ec; border-color:var(--ink); }
+    section { padding:76px 0; border-top:1px solid var(--line); }
+    .section-title { display:grid; grid-template-columns:.82fr 1fr; gap:44px; margin-bottom:34px; }
+    h2 { margin:0; font-size:clamp(30px,4vw,56px); line-height:1.05; letter-spacing:-.06em; }
+    .cards { display:grid; grid-template-columns:repeat(4,1fr); border:1px solid var(--line); }
+    .card { padding:26px; min-height:250px; border-right:1px solid var(--line); background:#fffdf8; }
+    .card:last-child { border-right:0; }
+    .card small { color:var(--blue); }
+    .card h3 { margin:42px 0 12px; font-size:21px; }
+    .card p, .item p { color:var(--muted); line-height:1.78; }
+    .list { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+    .item { padding:28px; background:#fffdf8; border:1px solid var(--line); }
+    .item h3 { margin:0 0 12px; }
+    .strip { background:var(--soft); border:1px solid #dce6ff; padding:42px; display:flex; justify-content:space-between; gap:26px; align-items:center; }
+    footer { padding:30px 0 46px; color:var(--muted); }
+    @media (max-width:900px) { .links { display:none; } .hero,.section-title { grid-template-columns:1fr; } .hero-panel { border-left:0; padding-left:0; border-top:1px solid var(--line); } .cards,.list { grid-template-columns:1fr 1fr; } .card:nth-child(2) { border-right:0; } }
+    @media (max-width:560px) { .cards,.list { grid-template-columns:1fr; } .card { border-right:0; border-bottom:1px solid var(--line); } .strip { flex-direction:column; align-items:flex-start; } }
+  </style>
+</head>
+<body>
+  <header><nav class="wrap"><a class="brand" href="index.html">上海宏途数创科技有限公司</a><div class="links"><a href="#capability">能力</a><a href="#scene">场景</a><a href="#advantage">优势</a><a href="#contact">联系</a></div></nav></header>
+  <main class="wrap">
+    <section class="hero"><div><div class="kicker">浅色极简商务风</div><h1>清晰规划，稳健交付企业数字化项目</h1><p class="lead">上海宏途数创科技有限公司以务实的技术服务，帮助企业完成软件系统建设、数据治理、业务流程优化与智能应用落地。</p><div class="actions"><a class="btn primary" href="#contact">联系合作</a><a class="btn" href="index.html">返回预览</a></div></div><aside class="hero-panel"><div class="metric"><strong>咨询</strong><span>从业务问题开始，而不是从工具开始。</span></div><div class="metric"><strong>建设</strong><span>业务系统、数据平台、可视化界面。</span></div><div class="metric"><strong>迭代</strong><span>交付后持续优化，适配企业增长。</span></div></aside></section>
+    <section id="capability"><div class="section-title"><h2>核心能力</h2><p class="lead">用简洁的结构承载复杂业务，让管理者、执行者和技术团队都能看清下一步。</p></div><div class="cards"><article class="card"><small>01</small><h3>数字化咨询</h3><p>梳理目标、流程和系统边界，形成可执行建设路线。</p></article><article class="card"><small>02</small><h3>业务系统</h3><p>建设管理、运营、协同、审批等企业业务软件系统。</p></article><article class="card"><small>03</small><h3>数据治理</h3><p>统一数据口径，提升数据质量，并服务经营分析。</p></article><article class="card"><small>04</small><h3>智能应用</h3><p>结合 AI 与自动化能力，减少重复劳动，提升响应效率。</p></article></div></section>
+    <section id="scene"><div class="section-title"><h2>服务场景</h2><p class="lead">从企业官网到内部系统，从数据驾驶舱到流程优化，围绕业务价值选择合适路径。</p></div><div class="list"><article class="item"><h3>企业品牌数字化</h3><p>官网、业务介绍、案例展示与线上品牌可信度建设。</p></article><article class="item"><h3>管理系统定制</h3><p>客户、项目、合同、流程等业务系统设计与开发。</p></article><article class="item"><h3>数据可视化看板</h3><p>经营指标、项目进度、运营数据的清晰呈现。</p></article><article class="item"><h3>智能流程优化</h3><p>让高频重复流程变得更轻、更快、更易追踪。</p></article></div></section>
+    <section id="advantage"><div class="section-title"><h2>企业优势</h2><p class="lead">浅色极简不是简单留白，而是将复杂信息整理到足够清晰。</p></div><div class="cards"><article class="card"><h3>需求清楚</h3><p>先定义问题与成功标准，再进入开发执行。</p></article><article class="card"><h3>过程透明</h3><p>阶段目标明确，沟通和交付节奏可追踪。</p></article><article class="card"><h3>技术适配</h3><p>不盲目追新，优先选择稳定、可维护方案。</p></article><article class="card"><h3>长期服务</h3><p>支持业务变化后的持续迭代与优化。</p></article></div></section>
+    <section id="contact"><div class="strip"><div><div class="kicker">Contact</div><h2>欢迎洽谈企业数字化合作</h2><p class="lead">从一次需求沟通开始，判断项目是否值得做、如何做、分几步做。</p></div><a class="btn primary" href="mailto:contact@example.com">发送合作意向</a></div></section>
+  </main>
+  <footer class="wrap">© 2026 上海宏途数创科技有限公司 · 浅色极简商务风预览</footer>
+</body>
+</html>

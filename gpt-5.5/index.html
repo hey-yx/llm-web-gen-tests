@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>上海宏途数创科技有限公司 | 三套企业站风格预览</title>
+  <style>
+    :root { color-scheme: light; --ink:#172033; --muted:#667085; --line:#e6e9ef; --paper:#f6f2ea; --tech:#111827; --blue:#2457d6; --gold:#9b7440; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:"PingFang SC","Microsoft YaHei",Arial,sans-serif; background:linear-gradient(135deg,#f7f8fb,#eee9df); color:var(--ink); }
+    main { min-height:100vh; padding:clamp(28px,5vw,72px); display:flex; flex-direction:column; justify-content:center; }
+    .eyebrow { letter-spacing:.18em; text-transform:uppercase; color:var(--muted); font-size:12px; }
+    h1 { max-width:920px; margin:14px 0 12px; font-size:clamp(34px,7vw,88px); line-height:.98; letter-spacing:-.06em; }
+    .lead { max-width:760px; color:#4f5b6f; font-size:clamp(16px,2vw,20px); line-height:1.8; }
+    .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; margin-top:46px; }
+    .card { min-height:360px; padding:26px; border:1px solid rgba(23,32,51,.12); text-decoration:none; color:inherit; display:flex; flex-direction:column; justify-content:space-between; transition:.28s ease; position:relative; overflow:hidden; }
+    .card:hover { transform:translateY(-8px); box-shadow:0 28px 70px rgba(23,32,51,.14); }
+    .card h2 { margin:0; font-size:26px; letter-spacing:-.04em; }
+    .card p { color:inherit; opacity:.72; line-height:1.75; }
+    .dark { background:radial-gradient(circle at 80% 12%,rgba(78,122,255,.32),transparent 34%),#101723; color:#edf3ff; }
+    .light { background:#fffdf8; color:#172033; }
+    .oriental { background:linear-gradient(145deg,#f5efe2,#fffaf1); color:#26344f; }
+    .mark { width:64px; height:64px; border-radius:50%; border:1px solid currentColor; display:grid; place-items:center; font-size:22px; opacity:.8; }
+    .dark .mark { box-shadow:0 0 60px rgba(96,139,255,.38); }
+    .light .mark { color:var(--blue); }
+    .oriental .mark { color:var(--gold); }
+    .meta { display:flex; justify-content:space-between; align-items:end; gap:18px; }
+    .open { font-size:14px; border-bottom:1px solid currentColor; padding-bottom:4px; }
+    @media (max-width:860px) { .grid { grid-template-columns:1fr; } .card { min-height:260px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">HTLABS TEST2 / STYLE PREVIEW</div>
+    <h1>上海宏途数创科技有限公司企业站三套风格预览</h1>
+    <p class="lead">同一家公司、同一套业务内容，分别以深色高级科技风、浅色极简商务风、东方留白高端风呈现。点击任一方案查看完整单页企业站。</p>
+    <section class="grid" aria-label="风格预览">
+      <a class="card dark" href="dark.html">
+        <div><div class="mark">01</div><h2>深色高级科技风</h2><p>深蓝黑、精密线框、冷调光感，强调数字化、智能化与技术可信度。</p></div>
+        <div class="meta"><span>Advanced / Enterprise / Digital</span><span class="open">查看方案</span></div>
+      </a>
+      <a class="card light" href="light.html">
+        <div><div class="mark">02</div><h2>浅色极简商务风</h2><p>温和白底、清晰层级、克制蓝色点缀，适合稳健透明的企业形象。</p></div>
+        <div class="meta"><span>Minimal / Trust / Business</span><span class="open">查看方案</span></div>
+      </a>
+      <a class="card oriental" href="oriental.html">
+        <div><div class="mark">03</div><h2>东方留白高端风</h2><p>纸感底色、墨蓝文字、淡金细节，用留白和节奏表达长期主义与品牌气质。</p></div>
+        <div class="meta"><span>Calm / Refined / Cultural</span><span class="open">查看方案</span></div>
+      </a>
+    </section>
+  </main>
+</body>
+</html>

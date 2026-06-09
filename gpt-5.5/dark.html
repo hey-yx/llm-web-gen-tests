@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>上海宏途数创科技有限公司 | 深色高级科技风</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0d1420; --panel:#121d2d; --ink:#edf5ff; --muted:#9fb0c7; --line:rgba(180,205,255,.16); --accent:#8db2ff; --accent2:#d6e3ff; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:"PingFang SC","Microsoft YaHei",Arial,sans-serif; color:var(--ink); background:radial-gradient(circle at 72% 8%,rgba(91,130,236,.3),transparent 26%),radial-gradient(circle at 10% 42%,rgba(49,96,170,.22),transparent 30%),var(--bg); }
+    body:before { content:""; position:fixed; inset:0; pointer-events:none; background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px); background-size:72px 72px; mask-image:linear-gradient(to bottom,black,transparent 80%); opacity:.42; }
+    a { color:inherit; text-decoration:none; }
+    .wrap { width:min(1180px,calc(100% - 40px)); margin:auto; position:relative; }
+    header { position:sticky; top:0; z-index:5; backdrop-filter:blur(18px); border-bottom:1px solid var(--line); background:rgba(13,20,32,.72); }
+    nav { height:72px; display:flex; align-items:center; justify-content:space-between; }
+    .brand { font-weight:700; letter-spacing:.04em; }
+    .links { display:flex; gap:24px; color:var(--muted); font-size:14px; }
+    .hero { padding:clamp(72px,10vw,138px) 0 86px; display:grid; grid-template-columns:1.08fr .92fr; gap:54px; align-items:end; }
+    .tag { color:var(--accent); letter-spacing:.18em; font-size:12px; text-transform:uppercase; }
+    h1 { margin:18px 0; font-size:clamp(44px,7vw,92px); line-height:.96; letter-spacing:-.07em; }
+    .lead { color:#c5d4e8; font-size:clamp(17px,2vw,22px); line-height:1.8; max-width:720px; }
+    .actions { display:flex; gap:14px; margin-top:34px; flex-wrap:wrap; }
+    .btn { padding:13px 20px; border:1px solid var(--line); border-radius:999px; background:rgba(255,255,255,.04); }
+    .btn.primary { background:var(--accent2); color:#101827; border-color:transparent; }
+    .signal { min-height:430px; border:1px solid var(--line); background:linear-gradient(145deg,rgba(255,255,255,.08),rgba(255,255,255,.02)); position:relative; overflow:hidden; padding:28px; }
+    .signal:after { content:""; position:absolute; width:340px; height:340px; border:1px solid rgba(141,178,255,.38); border-radius:50%; right:-80px; top:34px; box-shadow:0 0 80px rgba(141,178,255,.15); }
+    .signal strong { font-size:72px; line-height:1; letter-spacing:-.08em; }
+    .signal p { color:var(--muted); line-height:1.8; max-width:310px; }
+    section { padding:76px 0; border-top:1px solid var(--line); }
+    .section-head { display:flex; justify-content:space-between; gap:28px; align-items:end; margin-bottom:30px; }
+    h2 { margin:0; font-size:clamp(30px,4vw,54px); letter-spacing:-.05em; }
+    .section-head p { max-width:520px; color:var(--muted); line-height:1.8; }
+    .grid { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }
+    .card { border:1px solid var(--line); background:rgba(255,255,255,.035); padding:24px; min-height:230px; transition:.25s ease; }
+    .card:hover { transform:translateY(-6px); border-color:rgba(141,178,255,.48); }
+    .num { color:var(--accent); font-size:13px; }
+    .card h3 { margin:34px 0 12px; font-size:22px; }
+    .card p, .list p { color:var(--muted); line-height:1.75; }
+    .split { display:grid; grid-template-columns:.85fr 1.15fr; gap:26px; }
+    .list { display:grid; gap:12px; }
+    .row { border:1px solid var(--line); padding:22px; display:grid; grid-template-columns:130px 1fr; gap:24px; background:rgba(255,255,255,.025); }
+    .cta { padding:54px; border:1px solid rgba(141,178,255,.35); background:linear-gradient(135deg,rgba(141,178,255,.16),rgba(255,255,255,.035)); display:flex; justify-content:space-between; gap:26px; align-items:center; }
+    footer { color:var(--muted); padding:28px 0 44px; }
+    @media (max-width:900px) { .links { display:none; } .hero,.split { grid-template-columns:1fr; } .grid { grid-template-columns:1fr 1fr; } .row { grid-template-columns:1fr; } .cta { flex-direction:column; align-items:flex-start; } }
+    @media (max-width:560px) { .grid { grid-template-columns:1fr; } .signal { min-height:300px; } }
+  </style>
+</head>
+<body>
+  <header><nav class="wrap"><a class="brand" href="index.html">宏途数创</a><div class="links"><a href="#capability">核心能力</a><a href="#scene">服务场景</a><a href="#advantage">企业优势</a><a href="#contact">联系合作</a></div></nav></header>
+  <main class="wrap">
+    <section class="hero">
+      <div><div class="tag">深色高级科技风 / Digital Innovation Partner</div><h1>以可靠技术，构建企业数字化新路径</h1><p class="lead">上海宏途数创科技有限公司专注数字化咨询、业务系统建设、数据治理与智能应用探索，为企业提供克制、清晰、可落地的数创能力。</p><div class="actions"><a class="btn primary" href="#contact">洽谈合作</a><a class="btn" href="index.html">返回三套预览</a></div></div>
+      <aside class="signal"><strong>HT</strong><p>从业务理解到技术落地，让企业系统、数据资产与智能流程形成长期可进化的数字底座。</p></aside>
+    </section>
+    <section id="capability"><div class="section-head"><h2>核心能力</h2><p>围绕企业真实业务场景，提供从规划到交付的完整数字化服务。</p></div><div class="grid"><article class="card"><span class="num">01</span><h3>数字化咨询</h3><p>梳理业务流程、系统边界与建设节奏，让投入更聚焦。</p></article><article class="card"><span class="num">02</span><h3>软件系统建设</h3><p>面向管理、运营、协同等场景，构建稳定业务系统。</p></article><article class="card"><span class="num">03</span><h3>数据治理</h3><p>整合分散数据，形成可分析、可追踪、可展示的数据资产。</p></article><article class="card"><span class="num">04</span><h3>智能应用</h3><p>探索 AI 与自动化流程，帮助企业提升效率与响应速度。</p></article></div></section>
+    <section id="scene" class="split"><div><h2>服务场景</h2><p class="lead">不堆砌概念，优先服务能产生业务价值的关键节点。</p></div><div class="list"><div class="row"><strong>品牌数字化</strong><p>企业官网、产品展示、品牌内容体系与线上可信形象建设。</p></div><div class="row"><strong>业务系统</strong><p>客户管理、项目管理、内部协同、流程审批等定制系统。</p></div><div class="row"><strong>数据驾驶舱</strong><p>管理看板、经营分析、指标追踪与可视化决策支持。</p></div><div class="row"><strong>流程优化</strong><p>用自动化与智能应用降低重复操作，提升组织运转效率。</p></div></div></section>
+    <section id="advantage"><div class="section-head"><h2>企业优势</h2><p>专业不是复杂，而是让每一次交付都清楚、稳定、有延展性。</p></div><div class="grid"><article class="card"><h3>审美克制</h3><p>界面表达服务于信息效率，不做无效炫技。</p></article><article class="card"><h3>交付可靠</h3><p>重视需求边界、进度透明与质量验证。</p></article><article class="card"><h3>技术落地</h3><p>以业务结果为导向，选择合适而非过度的技术方案。</p></article><article class="card"><h3>长期合作</h3><p>支持系统持续迭代，让数字化能力长期生长。</p></article></div></section>
+    <section id="contact"><div class="cta"><div><div class="tag">Contact</div><h2>欢迎与上海宏途数创科技有限公司洽谈合作</h2><p class="lead">如果你正在规划企业数字化、系统建设或数据可视化项目，我们可以从一次清晰的需求沟通开始。</p></div><a class="btn primary" href="mailto:contact@example.com">发送合作意向</a></div></section>
+  </main>
+  <footer class="wrap">© 2026 上海宏途数创科技有限公司 · 深色高级科技风预览</footer>
+</body>
+</html>

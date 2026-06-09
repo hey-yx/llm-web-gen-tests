@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>上海宏途数创科技有限公司 | 东方留白高端风</title>
+  <style>
+    :root { color-scheme: light; --paper:#f4efe3; --ink:#22304b; --muted:#6f756f; --line:#d8cbb5; --gold:#9a7645; --rice:#fffaf0; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:"Songti SC","STSong","PingFang SC","Microsoft YaHei",serif; color:var(--ink); background:radial-gradient(circle at 18% 8%,rgba(154,118,69,.14),transparent 24%),linear-gradient(90deg,rgba(216,203,181,.22) 1px,transparent 1px),var(--paper); background-size:auto,96px 96px,auto; }
+    a { color:inherit; text-decoration:none; }
+    .wrap { width:min(1080px,calc(100% - 42px)); margin:auto; }
+    header { position:sticky; top:0; z-index:4; backdrop-filter:blur(16px); background:rgba(244,239,227,.78); border-bottom:1px solid rgba(216,203,181,.65); }
+    nav { min-height:76px; display:flex; justify-content:space-between; align-items:center; }
+    .brand { display:flex; align-items:center; gap:12px; font-weight:700; letter-spacing:.08em; }
+    .seal { width:34px; height:34px; border:1px solid var(--gold); color:var(--gold); display:grid; place-items:center; font-size:14px; }
+    .links { display:flex; gap:28px; color:var(--muted); font-size:14px; }
+    .hero { padding:98px 0 88px; display:grid; grid-template-columns:.9fr 1.1fr; gap:70px; align-items:center; }
+    .vertical { writing-mode:vertical-rl; color:var(--gold); letter-spacing:.28em; justify-self:center; font-size:15px; }
+    h1 { margin:0; font-size:clamp(44px,7vw,88px); line-height:1.12; letter-spacing:-.06em; font-weight:600; }
+    .lead { color:#596054; font-size:clamp(16px,1.8vw,20px); line-height:2.05; }
+    .hero-copy { border-left:1px solid var(--line); padding-left:44px; }
+    .actions { display:flex; gap:14px; margin-top:34px; flex-wrap:wrap; }
+    .btn { padding:12px 22px; border:1px solid var(--gold); color:var(--gold); background:transparent; }
+    .btn.primary { background:var(--gold); color:var(--rice); }
+    section { padding:78px 0; border-top:1px solid rgba(216,203,181,.78); }
+    .section-head { display:grid; grid-template-columns:.68fr 1fr; gap:72px; margin-bottom:36px; }
+    .section-head small { color:var(--gold); letter-spacing:.26em; text-transform:uppercase; }
+    h2 { margin:10px 0 0; font-size:clamp(32px,4vw,58px); line-height:1.15; letter-spacing:-.05em; font-weight:500; }
+    .cards { display:grid; grid-template-columns:repeat(4,1fr); gap:18px; }
+    .card { background:rgba(255,250,240,.62); border:1px solid rgba(216,203,181,.86); padding:28px; min-height:250px; }
+    .card b { color:var(--gold); font-weight:500; }
+    .card h3 { margin:46px 0 12px; font-size:23px; font-weight:500; }
+    .card p, .scene p { color:var(--muted); line-height:1.95; }
+    .scenes { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+    .scene { padding:32px; border-bottom:1px solid var(--line); background:linear-gradient(180deg,rgba(255,250,240,.58),rgba(255,250,240,.18)); }
+    .scene h3 { margin:0 0 12px; font-size:24px; font-weight:500; }
+    .quote { padding:58px; background:var(--rice); border:1px solid var(--line); display:grid; grid-template-columns:1fr auto; gap:32px; align-items:end; }
+    .quote h2 { max-width:760px; }
+    footer { color:var(--muted); padding:30px 0 48px; }
+    @media (max-width:900px) { .links { display:none; } .hero,.section-head { grid-template-columns:1fr; gap:28px; } .vertical { writing-mode:horizontal-tb; justify-self:start; } .hero-copy { border-left:0; padding-left:0; } .cards,.scenes { grid-template-columns:1fr 1fr; } .quote { grid-template-columns:1fr; } }
+    @media (max-width:560px) { .cards,.scenes { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <header><nav class="wrap"><a class="brand" href="index.html"><span class="seal">宏</span>上海宏途数创科技有限公司</a><div class="links"><a href="#capability">能力</a><a href="#scene">场景</a><a href="#advantage">气质</a><a href="#contact">合作</a></div></nav></header>
+  <main class="wrap">
+    <section class="hero"><div class="vertical">东方留白高端风 · 数创以致远</div><div class="hero-copy"><h1>以数创之力，行稳致远</h1><p class="lead">上海宏途数创科技有限公司相信，真正有效的数字化不在喧哗处，而在业务脉络、系统秩序与长期主义之中。我们以克制审美和可靠技术，为企业建设可持续生长的数字能力。</p><div class="actions"><a class="btn primary" href="#contact">洽谈合作</a><a class="btn" href="index.html">返回预览</a></div></div></section>
+    <section id="capability"><div class="section-head"><div><small>Capability</small><h2>核心能力</h2></div><p class="lead">用沉稳的方式理解企业，用清晰的结构组织系统，用可落地的技术回应变化。</p></div><div class="cards"><article class="card"><b>壹</b><h3>数字化咨询</h3><p>洞察业务秩序，明确建设路径，使投入与目标相称。</p></article><article class="card"><b>贰</b><h3>软件系统建设</h3><p>围绕管理、协同与运营，构建可持续维护的业务系统。</p></article><article class="card"><b>叁</b><h3>数据治理</h3><p>让数据回到统一口径，服务管理判断与经营复盘。</p></article><article class="card"><b>肆</b><h3>智能应用</h3><p>将智能应用嵌入流程，使效率改善自然发生。</p></article></div></section>
+    <section id="scene"><div class="section-head"><div><small>Scene</small><h2>服务场景</h2></div><p class="lead">以适度为尺度，以长期为方向，在关键业务处建立数字化支点。</p></div><div class="scenes"><article class="scene"><h3>品牌数字化</h3><p>企业官网、内容表达与线上形象建设，让客户快速建立信任。</p></article><article class="scene"><h3>业务系统</h3><p>从客户、项目到流程协同，形成清晰有序的系统承载。</p></article><article class="scene"><h3>数据驾驶舱</h3><p>通过指标与可视化，让管理判断更从容、更有依据。</p></article><article class="scene"><h3>流程优化</h3><p>减少重复与消耗，让组织将精力回到更重要的事情。</p></article></div></section>
+    <section id="advantage"><div class="section-head"><div><small>Temperament</small><h2>企业气质</h2></div><p class="lead">东方留白高端风强调克制、秩序、长期主义，让科技公司不止显得专业，也显得可信而有修养。</p></div><div class="cards"><article class="card"><h3>审美克制</h3><p>用留白与节奏提高信息质感。</p></article><article class="card"><h3>交付可靠</h3><p>把复杂问题拆解为清楚步骤。</p></article><article class="card"><h3>技术务实</h3><p>服务业务，不迷信概念。</p></article><article class="card"><h3>长期主义</h3><p>为企业持续迭代留出空间。</p></article></div></section>
+    <section id="contact"><div class="quote"><div><small style="color:var(--gold);letter-spacing:.22em;">Contact</small><h2>若企业正在寻找稳健的数字化合作伙伴，欢迎与宏途数创相谈。</h2><p class="lead">一场充分沟通，胜过仓促开工。我们愿意先理解问题，再讨论方案。</p></div><a class="btn primary" href="mailto:contact@example.com">发送合作意向</a></div></section>
+  </main>
+  <footer class="wrap">© 2026 上海宏途数创科技有限公司 · 东方留白高端风预览</footer>
+</body>
+</html>
